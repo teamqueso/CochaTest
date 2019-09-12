@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CochaTest</string>
+
+    <!-- valores de botones y cajas de texto -->
+
+    <string name="pregunta_text">Punata es el municipio considerado como la tierra del charango.</string>
+    <string name="verdad_button">Verdad</string>
+    <string name="falso_button">Falso</string>
+    <string name="correcto_toast">Correcto</string>
+    <string name="incorrecto_toast">Incorrecto</string>
+
 </resources>
