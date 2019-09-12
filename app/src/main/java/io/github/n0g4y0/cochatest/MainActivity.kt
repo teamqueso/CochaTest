@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
         botonVerdad = findViewById(R.id.verdad_button)
         botonFalso = findViewById(R.id.falso_button)
 
-        botonVerdad.setOnClickListener {
+        botonVerdad.setOnClickListener {view : View ->
             val muestraMensaje = Toast.makeText(this, R.string.correcto_toast, Toast.LENGTH_SHORT)
             muestraMensaje.show()
         }
 
-        botonFalso.setOnClickListener {
+        botonFalso.setOnClickListener {view : View ->
 
             val muestraMensaje = Toast.makeText(this, R.string.incorrecto_toast, Toast.LENGTH_SHORT)
             muestraMensaje.show()
