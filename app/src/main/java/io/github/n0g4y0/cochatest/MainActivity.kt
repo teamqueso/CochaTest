@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         botonSiguiente.setOnClickListener {
-                indiceActual = (indiceActual + 1) % bancoPreguntas.size
+                indiceActual = indiceActual + 1
                 actualizarPregunta()
         }
 
